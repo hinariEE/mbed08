@@ -30,14 +30,14 @@ struct Config {
         "   *             \n\r"
         "  *              \n\r"
         " * * * * * * * * \n\r",
-        "Z:\n\r"
+        "line:\n\r"
         " * * * * * * * *  \n\r"
-        "             *    \n\r"
-        "          *       \n\r"
-        "        *         \n\r"
-        "     *            \n\r"
-        "   *              \n\r"
-        " * * * * * * * *  \n\r"};
+        "                  \n\r"
+        "                  \n\r"
+        "                  \n\r"
+        "                  \n\r"
+        "                  \n\r"
+        "                  \n\r"};
 };
 
 Config config;
