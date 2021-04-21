@@ -29,7 +29,7 @@ struct Config {
         "    *            \n\r"
         "   *             \n\r"
         "  *              \n\r"
-        " * * * * * * * * \n\r"};
+        " * * * * * * * * \n\r",
         "L:\n\r"
         " * * * * * * * *  \n\r"
         "               *  \n\r"
@@ -37,7 +37,7 @@ struct Config {
         "               *  \n\r"
         "               *  \n\r"
         "               *  \n\r"
-        "               *  \n\r",
+        "               *  \n\r"};
 };
 
 Config config;
