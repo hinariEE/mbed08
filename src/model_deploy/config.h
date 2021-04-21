@@ -13,7 +13,7 @@ struct Config {
   const int consecutiveInferenceThresholds[label_num] = {20, 10, 10};
 
   const char* output_message[label_num] = {
-        "RING:\n\r"
+        "RING:\n\r"// circle / down
         "          *       \n\r"
         "       *     *    \n\r"
         "     *         *  \n\r"
@@ -21,7 +21,7 @@ struct Config {
         "     *         *  \n\r"
         "       *     *    \n\r"
         "          *       \n\r",
-        "SLOPE:\n\r"
+        "SLOPE:\n\r"// strongly +/- x
         "        *        \n\r"
         "       *         \n\r"
         "      *          \n\r"
@@ -30,14 +30,14 @@ struct Config {
         "   *             \n\r"
         "  *              \n\r"
         " * * * * * * * * \n\r",
-        "line:\n\r"
-        " * * * * * * * *  \n\r"
-        "                  \n\r"
-        "                  \n\r"
-        "                  \n\r"
-        "                  \n\r"
-        "                  \n\r"
-        "                  \n\r"};
+        "UP:\n\r"// up
+        "        *         \n\r"
+        "      * * *       \n\r"
+        "     *  *  *      \n\r"
+        "        *         \n\r"
+        "        *         \n\r"
+        "        *         \n\r"
+        "        *         \n\r"};
 };
 
 Config config;
