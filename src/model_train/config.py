@@ -15,4 +15,4 @@ model = "CNN"
 seq_length = 64 # the input size of the model
 epochs = 50
 steps_per_epoch =1000
-batch_size = 64;
+batch_size = 64
